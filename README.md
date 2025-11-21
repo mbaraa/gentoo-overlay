@@ -14,6 +14,10 @@ My personal Gentoo Overlay repo, contains the following:
   - Optimizer and compiler/toolchain library for WebAssembly
   - [https://github.com/WebAssembly/binaryen/](https://github.com/WebAssembly/binaryen/)
 
+- **dev-vcs/gitlogue**
+  - A Git history screensaver - watch your code rewrite itself
+  - [https://github.com/unhappychoice/gitlogue](https://github.com/unhappychoice/gitlogue)
+
 - **media-sound/grievous**
   - Named after General Grievous, where it generates noises from text files or a provided URL, just like how Grievous makes weird noises when he talks.
   - [https://github.com/mbaraa/grievous](https://github.com/mbaraa/grievous)
