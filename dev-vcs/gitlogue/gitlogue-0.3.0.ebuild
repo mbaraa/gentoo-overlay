@@ -245,8 +245,9 @@ CRATES="
 inherit cargo
 
 DESCRIPTION="A Git history screensaver - watch your code rewrite itself"
-HOMEPAGE=""
+HOMEPAGE="https://github.com/unhappychoice/gitlogue"
 SRC_URI="
+	https://github.com/unhappychoice/${PN}/archive/v${PV}.tar.gz -> ${PN}.tar.gz
 	${CARGO_CRATE_URIS}
 "
 
@@ -255,3 +256,7 @@ LICENSE="ISC"
 LICENSE+=" Apache-2.0 MIT MPL-2.0 Unicode-3.0 ZLIB"
 SLOT="0"
 KEYWORDS="~amd64"
+
+src_install() {
+	cargo_src_install
+}
