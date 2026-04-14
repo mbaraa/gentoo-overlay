@@ -41,5 +41,5 @@ sync-uri = https://github.com/mbaraa/gentoo-overlay.git
 3. Sync the new overlay
 
 ```bash
-; emerge --sync mbraraa-overlay
+; emerge --sync mbaraa-overlay
 ```
