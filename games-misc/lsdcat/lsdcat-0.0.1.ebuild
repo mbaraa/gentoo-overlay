@@ -11,9 +11,9 @@ CRATES="
 inherit cargo
 
 DESCRIPTION="Rainbows and unicorns in Rust!"
-HOMEPAGE="https://github.com/mbaraa/lsdcat"
+HOMEPAGE="https://codeberg.org/lordbaraa/lsdcat"
 SRC_URI="
-	https://github.com/mbaraa/${PN}/archive/v${PV}.tar.gz -> ${PN}.tar.gz
+	https://codeberg.org/lordbaraa/${PN}/archive/v${PV}.tar.gz -> ${PN}.tar.gz
     ${CARGO_CRATE_URIS}
 "
 

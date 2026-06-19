@@ -165,9 +165,9 @@ CRATES="
 inherit cargo
 
 DESCRIPTION="Named after General Grievous, where it generates noises from text files or a provided URL, just like how Grievous makes weird noises when he talks."
-HOMEPAGE="https://github.com/mbaraa/grievous"
+HOMEPAGE="https://codeberg.org/lordbaraa/grievous"
 SRC_URI="
-	https://github.com/mbaraa/${PN}/archive/v${PV}.tar.gz -> ${PN}.tar.gz
+	https://codeberg.org/lordbaraa/${PN}/archive/v${PV}.tar.gz -> ${PN}.tar.gz
     ${CARGO_CRATE_URIS}
 "
 

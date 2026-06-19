@@ -4,7 +4,7 @@ inherit go-module
 
 DESCRIPTION="Dotfiles synchronizer thingy"
 HOMEPAGE="https://dotsync.org/"
-SRC_URI="https://github.com/mbaraa/dotsync/archive/v${PV}.tar.gz -> ${P}.tar.gz
+SRC_URI="https://codeberg.org/lordbaraa/dotsync/archive/v${PV}.tar.gz -> ${P}.tar.gz
 			${EGO_SUM_SRC_URI}"
 
 go-module_set_globals

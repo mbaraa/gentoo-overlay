@@ -1,6 +1,6 @@
 EAPI=8
 
-EGIT_REPO_URI="https://github.com/mbaraa/${PN}.git"
+EGIT_REPO_URI="https://codeberg.org/lordbaraa/${PN}.git"
 
 inherit git-r3 go-module
 

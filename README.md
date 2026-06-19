@@ -1,14 +1,14 @@
-# mbaraa-overlay
+# lordbaraa-overlay
 
 My personal Gentoo Overlay repo, contains the following:
 
 - **app-portage/eloi**
   - Gentoo's eix with extra steps, an AUR-like package manager for Gentoo.
-  - [https://github.com/mbaraa/eloi](https://github.com/mbaraa/eloi)
+  - [https://codeberg.org/lordbaraa/eloi](https://codeberg.org/lordbaraa/eloi)
 
 - **app-misc/dotsync**
   - Dotfiles synchronizer thingy.
-  - [https://github.com/mbaraa/dotsync](https://github.com/mbaraa/dotsync)
+  - [https://codeberg.org/lordbaraa/dotsync](https://codeberg.org/lordbaraa/dotsync)
 
 - **dev-util/binaryen**
   - Optimizer and compiler/toolchain library for WebAssembly
@@ -20,26 +20,26 @@ My personal Gentoo Overlay repo, contains the following:
 
 - **media-sound/grievous**
   - Named after General Grievous, where it generates noises from text files or a provided URL, just like how Grievous makes weird noises when he talks.
-  - [https://github.com/mbaraa/grievous](https://github.com/mbaraa/grievous)
+  - [https://codeberg.org/lordbaraa/grievous](https://codeberg.org/lordbaraa/grievous)
 
 - **games-misc/lsdcat**
   - Rainbows and unicorns in Rust!
-  - [https://github.com/mbaraa/lsdcat](https://github.com/mbaraa/lsdcat)
+  - [https://codeberg.org/lordbaraa/lsdcat](https://codeberg.org/lordbaraa/lsdcat)
 
 # Installation
 
-1. Create the overlay's metadata file `/etc/portage/repos.conf/mbaraa.conf`
+1. Create the overlay's metadata file `/etc/portage/repos.conf/lordbaraa.conf`
 2. Add the overlay's metadata to the created file
 
 ```
-[mbaraa-overlay]
-location = /var/db/repos/mbaraa-overlay
+[lordbaraa-overlay]
+location = /var/db/repos/lordbaraa-overlay
 sync-type = git
-sync-uri = https://github.com/mbaraa/gentoo-overlay.git
+sync-uri = https://codeberg.org/lordbaraa/gentoo-overlay.git
 ```
 
 3. Sync the new overlay
 
 ```bash
-; emerge --sync mbaraa-overlay
+; emerge --sync lordbaraa-overlay
 ```
